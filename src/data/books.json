@@ -1,0 +1,49 @@
+{
+  "books": [
+    {
+      "id": "book-1",
+      "titleTr": "ISTAC 2026 Özet Bildiri Kitabı",
+      "titleEn": "ISTAC 2026 Abstract Proceedings Book",
+      "editor": "Kongre Düzenleme Kurulu",
+      "date": "2026",
+      "isbn": "Hazırlanıyor",
+      "image": "/books/1.png"
+    },
+    {
+      "id": "book-2",
+      "titleTr": "ISTAC 2025 Tam Metin Bildiri Kitabı",
+      "titleEn": "ISTAC 2025 Full-Text Proceedings Book",
+      "editor": "Kongre Düzenleme Kurulu",
+      "date": "2025",
+      "isbn": "978-X-XXXX-XXXX-X",
+      "image": "/books/2.png"
+    },
+    {
+      "id": "book-3",
+      "titleTr": "ISTAC 2024 Bildiri Kitabı",
+      "titleEn": "ISTAC 2024 Proceedings Book",
+      "editor": "Kongre Düzenleme Kurulu",
+      "date": "2024",
+      "isbn": "978-X-XXXX-XXXX-X",
+      "image": "/books/3.png"
+    },
+    {
+      "id": "book-4",
+      "titleTr": "Atçılık Endüstrisinde İş Sağlığı ve Güvenliği Yönetimi",
+      "titleEn": "Occupational Health and Safety Management in Equine Industry",
+      "editor": "Prof. Dr. A. Engin Özçelik, Öğr. Gör. Tuba Kaldırım",
+      "date": "2023",
+      "isbn": "978-X-XXXX-XXXX-X",
+      "image": "/books/4.png"
+    },
+    {
+      "id": "book-5",
+      "titleTr": "Interdisciplinary Approaches in Agriculture, Biotechnology and Engineering",
+      "titleEn": "Interdisciplinary Approaches in Agriculture, Biotechnology and Engineering",
+      "editor": "Seçkin Akademisyenler",
+      "date": "2017",
+      "isbn": "978-X-XXXX-XXXX-X",
+      "image": "/books/5.png"
+    }
+  ]
+}
