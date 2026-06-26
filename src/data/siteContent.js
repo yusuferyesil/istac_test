@@ -100,7 +100,7 @@ export const content = {
         'Bildiri, sergi ve yayın süreçlerini akademik kalite ilkeleriyle desteklemek.'
       ],
       topicsTitle: 'Konular',
-      topics: ['Temel ve uygulamalı bilimler', 'Sağlık ve yaşam bilimleri', 'Mühendislik ve yapay zekâ', 'Dijital dönüşüm ve eğitim teknolojileri', 'Görsel sanatlar ve tasarım', 'Kültür, sanat yönetimi ve yaratıcı endüstriler'],
+      topics: ['Temel ve uygulamalı bilimler', 'Sosyal bilimler', 'Eğitim', 'Sağlık ve yaşam bilimleri', 'Mühendislik ve yapay zekâ', 'Dijital dönüşüm ve eğitim teknolojileri', 'Güzel sanatlar ve tasarım', 'Kültür, sanat yönetimi ve yaratıcı endüstriler'],
       datesTitle: 'Önemli Tarihler',
       dates: [
         { label: 'Bildiri özet gönderimi son tarihi', date: '25 Eylül 2026' },
@@ -118,7 +118,7 @@ export const content = {
       title: 'Uluslararası Jürili Online Karma Sergi',
       subtitle: 'Sanatsal üretimlerin uluslararası akademik bağlamda görünürlük kazanacağı seçkin bir online sergi alanı.',
       aboutTitle: 'Sergi Hakkında',
-      aboutText: 'ISTAC 2026 kapsamında düzenlenecek uluslararası jürili online karma sergi; görsel sanatlar, tasarım, geleneksel sanatlar ve disiplinlerarası üretimlere açık şekilde planlanmıştır.',
+      aboutText: 'ISTAC 2026 kapsamında düzenlenecek uluslararası jürili online karma sergi; güzel sanatlar, tasarım, geleneksel sanatlar ve disiplinlerarası üretimlere açık şekilde planlanmıştır.',
       conditionsTitle: 'Katılım Koşulları',
       conditions: ['Sergiye özgün eserlerle başvuru yapılmalıdır.', 'Eser görselleri yüksek çözünürlüklü ve sergilemeye uygun olmalıdır.', 'Başvurular jüri değerlendirmesinden sonra kabul edilir.'],
       processTitle: 'Başvuru Süreci',
@@ -128,8 +128,9 @@ export const content = {
       feesTitle: 'Sergi Ücreti & İletişim',
       feesText: 'Sergi katılımı için (jüri onayından sonra) belirlenen katılım bedelleri ve iletişim kanalları:',
       fees: [
-        { label: 'Ulusal Sergi Katılım Ücreti', price: '500 TL' },
-        { label: 'Uluslararası Sergi Katılım Ücreti', price: '5000 TL' }
+        { label: 'Uluslararası Sergi Katılım Ücreti', price: '500 TL' },
+        { label: 'Uluslararası Kişisel Sergi', price: '2000 TL' },
+        { label: 'El Sanatları Derneği Üyeleri', price: '250 TL' }
       ],
       emailText: 'Sergi ile ilgili tüm başvurularınızı ve sorularınızı doğrudan <a href="mailto:sergielsander@gmail.com" style="color: var(--color-teal); text-decoration: underline; font-weight: bold;">sergielsander@gmail.com</a> e-posta adresi üzerinden sergi sekreteryasına iletebilirsiniz.',
       calendarTitle: 'Sergi Takvimi',
@@ -161,8 +162,11 @@ export const content = {
       fees: [
         { label: 'Konferans Katılım Ücreti', price: '2000 TL' },
         { label: 'El Sanatları Derneği Üyeleri', price: '1700 TL' },
-        { label: 'Ulusal Sergi Katılım Ücreti', price: '500 TL' },
-        { label: 'Uluslararası Sergi Katılım Ücreti', price: '5000 TL' }
+        { label: '2 Bildiri ile Katılım', price: '3000 TL' },
+        { label: 'Poster Bildiri (Poster Dahil)', price: '2000 TL' },
+        { label: 'Uluslararası Sergi Katılım Ücreti', price: '500 TL' },
+        { label: 'Uluslararası Kişisel Sergi', price: '2000 TL' },
+        { label: 'Sergi - El Sanatları Derneği Üyeleri', price: '250 TL' }
       ],
       detailedRules: [
         {
@@ -242,7 +246,8 @@ export const content = {
           title: 'Koordinatörler',
           members: [
             { role: 'Kongre Koordinatörü', name: 'Prof. Dr. A. Engin ÖZÇELİK', phone: '05058587191', email: 'istac2026@gmail.com' },
-            { role: 'Kongre Koordinatörü', name: 'Dr. Mitat KANDEMİR', phone: '05324863967', email: 'istac2026@gmail.com' }
+            { role: 'Kongre Koordinatörü', name: 'Dr. Mitat KANDEMİR', phone: '05324863967', email: 'istac2026@gmail.com' },
+            { role: 'Kongre Koordinatörü', name: 'Dr. Öğr. Üyesi Yasemin KOPARAN', phone: '05306016904' }
           ]
         }
       ]
@@ -261,20 +266,20 @@ export const content = {
       includedItems: [
         'Açılış Kokteyli ve oturum arası ikramlar',
         'Kongreye bildiri ile katılacaklar için; Katılım Belgesi, Kongre Çantası, Kongre Özet Metin E-kitap, Program Kitapçığı ve Yaka Kartı',
-        'Sergiye katılacaklar için; Yaka Kartı, E-Katılım Belgesi ve Sergi E-Kataloğu',
+        'Sergiye katılacaklar için; E-Katılım Belgesi ve Sergi E-Kataloğu',
         'Talep edildiği takdirde sunulan tam metinler uluslararası yayınevinde E-kitap bölümü olarak yayımlanacaktır.'
       ],
       dailyIncludedTitle: 'Günübirlik Katılımcılar için Dahil Hizmetler',
       dailyIncludedItems: [
         'Açılış Kokteyli ve oturum arası ikramlar',
-        'Kongreye bildiri ile katılacaklar için; Katılım Belgesi, Kongre Çantası, Kongre Özet Metin E-kitap, Program Kitapçığı ve Yaka Kartı',
-        'Sergiye katılacaklar için; Yaka Kartı, E-Katılım Belgesi ve Sergi E-Kataloğu'
+        'Kongreye bildiri ile katılacaklar için; Katılım Belgesi, Kongre Çantası, Kongre Özet Metin E-kitap, Program Kitapçığı ve Yaka Kartı'
       ],
       bankCardTitle: 'Banka Hesap Bilgileri',
       bankDetails: [
         { label: 'Banka Adı', value: 'Garanti Bankası' },
         { label: 'Hesap Adı', value: 'NEWS TOUR TURİZM TAŞIMACILIK ORG. YATÇILIK TİC. VE SAN. LTD. ŞTİ.' },
-        { label: 'IBAN', value: 'TR33 0006 2000 7430 0006 2990 84' }
+        { label: 'IBAN', value: 'TR61 0015 7000 0000 0077 4867 91' },
+        { label: 'E-Posta', value: '<a href="mailto:satis@newstour.com.tr" style="color: var(--color-teal); text-decoration: underline;">satis@newstour.com.tr</a>' }
       ],
       accommodationTitle: 'Ulaşım ve Konaklama',
       hotelName: 'Bosphorus Sorgun Hotel',
@@ -302,7 +307,7 @@ export const content = {
       ],
       submissionNotes: [
         'Kongre bildiri ve poster başvuruları <a href="mailto:istac2026@gmail.com" style="color: var(--color-teal); text-decoration: underline; font-weight: bold;">istac2026@gmail.com</a> adresine yapılacaktır.',
-        'Sergi başvuruları <a href="mailto:sergielsander@gmail.com" style="color: var(--color-teal); text-decoration: underline; font-weight: bold;">sergielsander@gmail.com</a> adresine yapılacaktır.'
+        'Sergi başvuruları <a href="mailto:sergielsander@gmail.com" style="color: var(--color-teal); text-decoration: underline; font-weight: bold;">sergielsander@gmail.com</a> adresine yapılacaktır. Kongreye bildiri ile katılım sağlayanlar sergi ücreti ödemeyecektir.'
       ]
     }
   },
@@ -369,7 +374,7 @@ export const content = {
       purposeTitle: 'Purpose and Scope',
       purpose: ['Increase the international visibility of original research.', 'Create an academic collaboration ground across science, technology and art.', 'Support submission, exhibition and publication processes with academic quality principles.'],
       topicsTitle: 'Topics',
-      topics: ['Basic and applied sciences', 'Health and life sciences', 'Engineering and artificial intelligence', 'Digital transformation and educational technologies', 'Visual arts and design', 'Culture, art management and creative industries'],
+      topics: ['Basic and applied sciences', 'Social sciences', 'Education', 'Health and life sciences', 'Engineering and artificial intelligence', 'Digital transformation and educational technologies', 'Fine arts and design', 'Culture, art management and creative industries'],
       datesTitle: 'Important Dates',
       dates: [
         { label: 'Abstract submission deadline', date: '25 September 2026' },
@@ -387,7 +392,7 @@ export const content = {
       title: 'International Juried Online Group Exhibition',
       subtitle: 'A refined online exhibition space for international visibility of artistic productions.',
       aboutTitle: 'About the Exhibition',
-      aboutText: 'The international juried online group exhibition within ISTAC 2026 is planned for visual arts, design, traditional arts and interdisciplinary works.',
+      aboutText: 'The international juried online group exhibition within ISTAC 2026 is planned for fine arts, design, traditional arts and interdisciplinary works.',
       conditionsTitle: 'Participation Conditions',
       conditions: ['Applications must include original artworks.', 'Artwork images must be high-resolution and suitable for exhibition.', 'Applications are accepted after jury review.'],
       processTitle: 'Application Process',
@@ -397,8 +402,9 @@ export const content = {
       feesTitle: 'Exhibition Fee & Contact',
       feesText: 'Exhibition participation fees (applicable after jury approval) and communication channels:',
       fees: [
-        { label: 'National Exhibition Fee', price: '500 TL' },
-        { label: 'International Exhibition Fee', price: '5000 TL' }
+        { label: 'International Exhibition Fee', price: '500 TL' },
+        { label: 'International Personal Exhibition', price: '2000 TL' },
+        { label: 'Handicraft Association Members', price: '250 TL' }
       ],
       emailText: 'You can directly send all your exhibition applications and inquiries to the exhibition secretariat via <a href="mailto:sergielsander@gmail.com" style="color: var(--color-teal); text-decoration: underline; font-weight: bold;">sergielsander@gmail.com</a>.',
       calendarTitle: 'Exhibition Calendar',
@@ -430,8 +436,11 @@ export const content = {
       fees: [
         { label: 'Conference Participation Fee', price: '2000 TL' },
         { label: 'Handicraft Association Members', price: '1700 TL' },
-        { label: 'National Exhibition Participation Fee', price: '500 TL' },
-        { label: 'International Exhibition Participation Fee', price: '5000 TL' }
+        { label: 'Participation with 2 Papers', price: '3000 TL' },
+        { label: 'Poster Presentation (Poster Included)', price: '2000 TL' },
+        { label: 'International Exhibition Participation Fee', price: '500 TL' },
+        { label: 'International Personal Exhibition', price: '2000 TL' },
+        { label: 'Exhibition - Handicraft Association Members', price: '250 TL' }
       ],
       detailedRules: [
         {
@@ -511,7 +520,8 @@ export const content = {
           title: 'Coordinators',
           members: [
             { role: 'Congress Coordinator', name: 'Prof. Dr. A. Engin ÖZÇELİK', phone: '05058587191', email: 'istac2026@gmail.com' },
-            { role: 'Congress Coordinator', name: 'Dr. Mitat KANDEMİR', phone: '05324863967', email: 'istac2026@gmail.com' }
+            { role: 'Congress Coordinator', name: 'Dr. Mitat KANDEMİR', phone: '05324863967', email: 'istac2026@gmail.com' },
+            { role: 'Congress Coordinator', name: 'Dr. Yasemin KOPARAN (Asst. Prof.)', phone: '05306016904' }
           ]
         }
       ]
@@ -530,20 +540,20 @@ export const content = {
       includedItems: [
         'Opening Cocktail and session coffee break refreshments',
         'For paper presenters: Certificate of Participation, Congress Bag, Congress Abstract E-book, Program Booklet, and Name Badge',
-        'For exhibition participants: Name Badge, E-Certificate of Participation, and Exhibition E-Catalog',
+        'For exhibition participants: E-Certificate of Participation, and Exhibition E-Catalog',
         'Upon request, full text papers will be published as an E-book chapter by an international academic publisher.'
       ],
       dailyIncludedTitle: 'Services Included for Daily Participants',
       dailyIncludedItems: [
         'Opening Cocktail and session coffee break refreshments',
-        'For paper presenters: Certificate of Participation, Congress Bag, Congress Abstract E-book, Program Booklet, and Name Badge',
-        'For exhibition participants: Name Badge, E-Certificate of Participation, and Exhibition E-Catalog'
+        'For paper presenters: Certificate of Participation, Congress Bag, Congress Abstract E-book, Program Booklet, and Name Badge'
       ],
       bankCardTitle: 'Bank Account Information',
       bankDetails: [
         { label: 'Bank Name', value: 'Garanti Bankası' },
         { label: 'Account Name', value: 'NEWS TOUR TURİZM TAŞIMACILIK ORG. YATÇILIK TİC. VE SAN. LTD. ŞTİ.' },
-        { label: 'IBAN', value: 'TR33 0006 2000 7430 0006 2990 84' }
+        { label: 'IBAN', value: 'TR61 0015 7000 0000 0077 4867 91' },
+        { label: 'E-Mail', value: '<a href="mailto:satis@newstour.com.tr" style="color: var(--color-teal); text-decoration: underline;">satis@newstour.com.tr</a>' }
       ],
       accommodationTitle: 'Transportation & Accommodation',
       hotelName: 'Bosphorus Sorgun Hotel',
@@ -571,7 +581,7 @@ export const content = {
       ],
       submissionNotes: [
         'Congress paper and poster applications should be sent to <a href="mailto:istac2026@gmail.com" style="color: var(--color-teal); text-decoration: underline; font-weight: bold;">istac2026@gmail.com</a>.',
-        'Exhibition applications should be sent to <a href="mailto:sergielsander@gmail.com" style="color: var(--color-teal); text-decoration: underline; font-weight: bold;">sergielsander@gmail.com</a>.'
+        'Exhibition applications should be sent to <a href="mailto:sergielsander@gmail.com" style="color: var(--color-teal); text-decoration: underline; font-weight: bold;">sergielsander@gmail.com</a>. Those participating in the congress with a paper will not pay the exhibition fee.'
       ]
     }
   }

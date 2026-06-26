@@ -81,8 +81,11 @@
             <div class="bank-details-grid">
               <div class="bank-detail-item" v-for="detail in t.registration.bankDetails" :key="detail.label">
                 <span>{{ detail.label }}</span>
-                <strong>{{ detail.value }}</strong>
+                <strong v-html="detail.value"></strong>
               </div>
+            </div>
+            <div class="agency-banner" style="margin-top: 24px; border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--color-border);">
+              <img src="/newstour.png" alt="News Tour Agency" style="width: 100%; display: block;" />
             </div>
           </article>
         </div>
