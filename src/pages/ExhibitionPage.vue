@@ -36,6 +36,12 @@
           <article class="block-card card">
             <h2>{{ t.exhibition.sendTitle }}</h2>
             <p v-html="t.exhibition.sendText"></p>
+            <div class="cta-wrapper" style="margin-top: 20px;">
+              <a :href="t.exhibition.ctaUrl" target="_blank" rel="noopener" class="pdf-btn">
+                {{ t.exhibition.ctaText }}
+                <ExternalLink :size="16" />
+              </a>
+            </div>
           </article>
 
           <!-- Exhibition Fees & Contact Card -->
@@ -75,7 +81,7 @@
 </template>
 
 <script setup>
-import { Mail, CreditCard } from 'lucide-vue-next'
+import { Mail, CreditCard, ExternalLink } from 'lucide-vue-next'
 import ExhibitionIllustration from '../components/ExhibitionIllustration.vue'
 import PageHero from '../components/PageHero.vue'
 import { useLocalizedContent } from '../composables/useLocalizedContent'
@@ -135,6 +141,33 @@ const { t } = useLocalizedContent()
 .icon-teal {
   color: var(--color-teal);
   flex-shrink: 0;
+}
+
+/* Call to Action Button styling */
+.pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 26px;
+  border-radius: var(--radius-sm);
+  background: var(--color-teal);
+  color: white;
+  font-size: 0.88rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  transition: transform 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
+  box-shadow: 0 10px 20px rgba(27, 153, 139, 0.2);
+}
+
+.pdf-btn:hover {
+  transform: translateY(-1px);
+  background: #178579;
+  box-shadow: 0 14px 28px rgba(27, 153, 139, 0.28);
+}
+
+.cta-wrapper {
+  margin-top: 20px;
 }
 
 .exhibition-fees-list {

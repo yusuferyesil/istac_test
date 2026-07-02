@@ -138,7 +138,9 @@ export const content = {
         { label: 'Sergi başvurusu son tarihi', date: '15 Ağustos 2026' },
         { label: 'Jüri değerlendirme sonucu', date: '5 Eylül 2026' },
         { label: 'Online sergi açılışı', date: '9 Ekim 2026' }
-      ]
+      ],
+      ctaText: 'Sergi Başvuru Formu İçin Tıklayınız (DOC)',
+      ctaUrl: '/documents/sergi-basvuru-formu.doc'
     },
     books: {
       title: 'Kitaplar',
@@ -257,8 +259,8 @@ export const content = {
       subtitle: 'Kongre katılım, sergi kayıt, konaklama ücretleri ve banka hesap bilgileri.',
       exhibitionCardTitle: 'Sergi Kayıt',
       exhibitionCardText: 'Sergi kayıt formuna ulaşmak ve başvurunuzu gerçekleştirmek için aşağıdaki bağlantıyı kullanabilirsiniz.',
-      exhibitionCtaText: 'Sergi Başvuru Formu İçin Tıklayınız (PDF)',
-      exhibitionCtaUrl: 'https://istacongress.com/wp-content/uploads/2025/09/Sergi-Basvuru-Formu-1.pdf',
+      exhibitionCtaText: 'Sergi Başvuru Formu İçin Tıklayınız (DOC)',
+      exhibitionCtaUrl: '/documents/sergi-basvuru-formu.doc',
       feesCardTitle: 'Kayıt ve Ücret Bilgisi',
       feesCardText: 'Kongre ve sergi katılım bedelleri aşağıda listelenmiştir. Kaydınızın onaylanması için ödemenizi gerçekleştirdikten sonra dekontunuzu lütfen <a href="mailto:istac2026@gmail.com" style="color: var(--color-teal); text-decoration: underline; font-weight: bold;">istac2026@gmail.com</a> (sergi kayıtları için <a href="mailto:sergielsander@gmail.com" style="color: var(--color-teal); text-decoration: underline; font-weight: bold;">sergielsander@gmail.com</a>) adresine gönderiniz.',
       includedTitle: 'Kayıt Ücretine Dahil Hizmetler',
@@ -412,7 +414,9 @@ export const content = {
         { label: 'Exhibition application deadline', date: '15 August 2026' },
         { label: 'Jury review results', date: '5 September 2026' },
         { label: 'Online exhibition opening', date: '9 October 2026' }
-      ]
+      ],
+      ctaText: 'Click Here for Exhibition Application Form (DOC)',
+      ctaUrl: '/documents/sergi-basvuru-formu.doc'
     },
     books: {
       title: 'Books',
@@ -531,8 +535,8 @@ export const content = {
       subtitle: 'Congress participation, exhibition registration, accommodation rates and bank account details.',
       exhibitionCardTitle: 'Exhibition Registration',
       exhibitionCardText: 'You can use the link below to access the exhibition registration form and application details.',
-      exhibitionCtaText: 'Click Here for Exhibition Application Form (PDF)',
-      exhibitionCtaUrl: 'https://istacongress.com/wp-content/uploads/2025/09/Sergi-Basvuru-Formu-1.pdf',
+      exhibitionCtaText: 'Click Here for Exhibition Application Form (DOC)',
+      exhibitionCtaUrl: '/documents/sergi-basvuru-formu.doc',
       feesCardTitle: 'Registration & Fee Information',
       feesCardText: 'Congress and exhibition participation fees are listed below. In order to approve your registration, after making your payment, please send your receipt to <a href="mailto:istac2026@gmail.com" style="color: var(--color-teal); text-decoration: underline; font-weight: bold;">istac2026@gmail.com</a> (for exhibition registrations, send to <a href="mailto:sergielsander@gmail.com" style="color: var(--color-teal); text-decoration: underline; font-weight: bold;">sergielsander@gmail.com</a>).',
       includedTitle: 'Services Included in the Registration Fee',

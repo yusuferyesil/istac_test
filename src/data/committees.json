@@ -15,7 +15,7 @@
     "members": [
       { "name": "Prof. Dr. Özlenen ÖZKAN", "university": "Akdeniz Üniversitesi", "country": "Türkiye", "roleTr": "Rektör", "roleEn": "Rector" },
       { "name": "Prof. Dr. Ali Cengiz KÖSEOĞLU", "university": "Ankara Yıldırım Beyazıt Üniversitesi", "country": "Türkiye", "roleTr": "Rektör", "roleEn": "Rector" },
-      { "name": "Prof. Dr. Musa ALICI", "university": "Ege Üniversitesi", "country": "Türkiye", "roleTr": "Rektör", "roleEn": "Rector" },
+      { "name": "Prof. Dr. Musa ALCI", "university": "Ege Üniversitesi", "country": "Türkiye", "roleTr": "Rektör", "roleEn": "Rector" },
       { "name": "Prof. Dr. Ismaıljan BULANOV", "university": "Tashkent Textile And Light Industry Institute", "country": "Uzbekistan" },
       { "name": "Prof. Dr. Lazzat SATTAROVA", "university": "Almaty Technologich University", "country": "Kazakhstan" }
     ]
